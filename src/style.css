@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'MjSatter';
+  src: url('../public/font/Mj_Sattar_0.ttf') format('truetype');    
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

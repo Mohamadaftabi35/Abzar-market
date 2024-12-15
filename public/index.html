@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
+    <link rel="stylesheet" href="./output.css">
+    <title>Document</title>
+    <!-- css -->
+     <style>
+        .mobuile-menu{
+            transform: translateX(-100%);
+            transition: transform .4s;
+        }
+
+        .mobuile-menu.show{
+            transform: translateX(0);
+        }
+     </style>
+</head>
+<body class="bg-gray-700">
+    <!-- ==========baner========== -->
+    <div class="baner">
+        <img src="./image/baner.jpg" alt="baner" class="w-full h-200 object-cover">
+     </div>
+    <!-- =======================navbar========================== -->
+     <nav class="bg-gray-800 shadow-md">
+        <div class="container mx-auto px-2 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center w-full font-MjSatter">
+                <h1 class="text-yellow-400 font-bold text-5xl">ابزار مارکت</h1>
+               </div>
+               
+                 <!-- =====Button==== -->
+                <button class="mobuile-button-menu">
+                    <svg class="w-11 h-11 text-gray-700 bg-gray-500 rounded-lg" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="fixed space-y-0 h-full left-0 w-64 bg-black bg-opacity-50 text-white mobuile-menu">
+           <ul class="space-y-6 py-3 text-center">
+            <li><a class="block bg-yellow-600 hover:bg-yellow-700 text-1xl px-2 py-4 navlink" href="#abzar">ابزار ها</a></li>
+            <li><a class="block bg-yellow-600 hover:bg-yellow-700 text-1xl px-2 py-4 navlink" href="#shop-car">فروشگاه</a></li>
+            <li><a class="block bg-yellow-600 hover:bg-yellow-700 text-1xl px-2 py-4 navlink" href="#about">درباره ما</a></li>
+            <li><a class="block bg-yellow-600 hover:bg-yellow-700 text-1xl px-2 py-4 navlink" href="">تبلیغات</a></li> 
+            <li><a class="block bg-yellow-600 hover:bg-yellow-700 text-1xl px-2 py-4 navlink" href="">برند ها</a></li>
+           <li><a href="#" class="block bg-gray-600 hover:bg-gray-700 text-1xl px-2 py-4 rounded-full navlink">ثبت نام</a></li> 
+            <li><a href="#" class="block bg-gray-600 hover:bg-gray-700 text-1xl px-2 py-4 rounded-full navlink">ورود</a></li>
+           </ul>
+        </div>
+     </nav>
+    <!-- =================================header==================================== -->
+     <div class="container mx-auto p-2">
+        <div class="grid grid-cols-1 lg:grid-cols-3  gap-3">
+            <div class="col-span-1 py-3 mb-">
+                <img src="./image/header_1.webp" class="w-full h-200 " alt="image-1">
+                <img src="./image/header_2.webp" class="w-full h-200 mt-3" alt="image-1">
+            </div>
+            <div class="col-span-2">
+                <img src="./image/header-baner.webp" class="w-full h-full mt-3" alt="image-1">
+            </div>
+        </div>
+     </div>
+<!-- ===================================SHop-macanike========================================== -->
+    <div class="container mx-auto px-3 shadow-md" id="shop-car">
+        <hr class="mt-4">
+       <img src="./image/shop--1.webp" class="w-full h-full mt-3" alt="image-1">
+       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        
+        <!-- ----------------cart 1-------------- -->
+        <div class="bg-gray-600 shadow-md rounded-lg overflow-hidden mt-3">
+            <img src="./image/mak_1.jpg" alt="" class="w-full h-100 object-cover">
+            <div class="p-3 text-center">
+               <h1 class="text-white font-bold">انبر قفلی پروتو 10 اینچ مدل 292-WR</h1>
+                <h2 class="text-1xl mt-4">1,230,000 تومان <br> <del>2,000,000 تومان</del></h2>
+               <button class="border border-green-600 bg-green-600 mt-6 px-10 py-2">
+                <i class="ri-shopping-cart-line text-2xl"></i>
+               </button>
+            </div>
+        </div>
+        <!-- -------------------cart 2------------------- -->
+        <div class="bg-gray-600 shadow-md rounded-lg overflow-hidden mt-3">
+            <img src="./image/mak_2.jpg" alt="" class="w-full h-100 object-cover">
+            <div class="p-3 text-center">
+               <h1 class="text-white font-bold">آچار فرانسه ایران پتک مدل EA-10</h1>
+                <h2 class="text-1xl mt-4">80,000 تومان <br> <del>100,000 تومان</del></h2>
+               <button class="border border-green-600 bg-green-600 mt-6 px-10 py-2">
+                <i class="ri-shopping-cart-line text-2xl"></i>
+               </button>
+            </div>
+        </div>
+        <!-- ---------------------cart 3------------------ -->
+        <div class="bg-gray-600 shadow-md rounded-lg overflow-hidden mt-3">
+            <img src="./image/mak_3.jpg" alt="" class="w-full h-100 object-cover">
+            <div class="p-3 text-center">
+               <h1 class="text-white font-bold">آچار شلاقی تک دسته کندو مدل 50106</h1>
+                <h2 class="text-1xl mt-4">1,430,000 تومان <br> <del>1,900,000 تومان</del></h2>
+               <button class="border border-green-600 bg-green-600 mt-6 px-10 py-2">
+                <i class="ri-shopping-cart-line text-2xl"></i>
+               </button>
+            </div>
+        </div>
+        <!-- ----------------------cart 4------------------ -->
+        <div class="bg-gray-600 shadow-md rounded-lg overflow-hidden mt-3">
+            <img src="./image/mak_4.jpg" alt="" class="w-full h-100 object-cover">
+            <div class="p-3 text-center">
+               <h1 class="text-white font-bold">انبر کلاغی جانزوی مدل P27</h1>
+                <h2 class="text-1xl mt-4">1,030,000 تومان <br> <del>1,500,000 تومان</del></h2>
+               <button class="border border-green-600 bg-green-600 mt-6 px-10 py-2">
+                <i class="ri-shopping-cart-line text-2xl"></i>
+               </button>
+            </div>
+        </div>
+        <!-- ----------------------cart 5------------------ -->
+        <div class="bg-gray-600 shadow-md rounded-lg overflow-hidden mt-3">
+            <img src="./image/mak_5.jpg" alt="" class="w-full h-100 object-cover">
+            <div class="p-3 text-center">
+               <h1 class="text-white font-bold">آچار شلاقی دو دسته کارناوال</h1>
+                <h2 class="text-1xl mt-4">700,000 تومان <br> <del>1,000,000 تومان</del></h2>
+               <button class="border border-green-600 bg-green-600 mt-6 px-10 py-2">
+                <i class="ri-shopping-cart-line text-2xl"></i>
+               </button>
+            </div>
+        </div>
+        <!-- ----------------------cart 6------------------ -->
+        <div class="bg-gray-600 shadow-md rounded-lg overflow-hidden mt-3">
+            <img src="./image/mak_6.jpg" alt="" class="w-full h-100 object-cover">
+            <div class="p-3 text-center">
+               <h1 class="text-white font-bold">کیف ابزار زارا 34 سانتی متر مدل 104</h1>
+                <h2 class="text-1xl mt-4">500,000 تومان <br> <del>800,000 تومان</del></h2>
+               <button class="border border-green-600 bg-green-600 mt-6 px-10 py-2">
+                <i class="ri-shopping-cart-line text-2xl"></i>
+               </button>
+            </div>
+        </div>
+       </div>
+    </div>
+    <!-- ---------------------shoping model-------------------- -->
+      <div class="bg-gray-600 shadow-md rounded-lg overflow-hidden mt-3">
+        <img src="./image/cart-1.webp" alt="cart-1" class="w-full h-50 object-cover">
+      </div>
+    <!-- ======================================ABOUT US===================================== -->
+     <div class="container mx-auto py-4 shadow-md" id="about">
+        <img src="./image/about_abzar.png" alt="abzar-about" class="w-full h-full object-cover">
+        <div class="text-center mt-4">
+            <h1 class="mt-5 text-5xl text-yellow-300">درباره ما</h1>
+            <hr class="mt-6">
+            <h2 class="mt-4 text-white text-3xl">ابزار مارکت از کجا شروع شد؟</h2>
+            <p class="mt-3 text-white"> 
+            چندین سال تیم جوان و پرتلاش ابزار مارکت در یکی از مغازه های بازار ابزار ایران به کار واردات ابزار و تجهیزات صنعتی مشغول بودند و ابزار و تجهیزات کارخانجات و شرکت های تولیدی را تامین می کردند. در همین سالها بود که ایده راه اندازی یک سایت فروش ابزار شکل گرفت و پس از تحقیق و جستجو از نحوه انجام این کار و چگونگی آن بالاخره ابزار مارکت در سال 1386 به طور رسمی کار خود را به عنوان یک سایت اینترنتی ابزار آغاز کرد و در کنار کسب و کار سنتی و مغازه ایی به گسترش محصولات و کسب کار اینترنتی اقدام نمود و در آن زمان تنها فروشگاه اینترنتی ابزار بود.
+            </p>
+        </div>
+     </div>
+     <!-- =======================================footer=========================================== -->
+      <footer class="container mx-auto py-2 bg-gray-500 mt-5">
+        <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-6">
+            <div class="text-center">
+                <h1 class="text-yellow-300 font-bold text-2xl">تماس با ما</h1>
+                <hr class="mt-3">
+                <h2 class="mt-3"><i class="ri-mail-line text-2xl text-yellow-300"></i> : mohamadaftabi@gmail.com</h2>
+                <h2 class="mt-3 mr-7"><i class="ri-phone-line text-2xl text-yellow-300"></i> : +98 9901629667</h2>
+            </div>
+
+            <div class="text-center">
+                <h1 class="text-yellow-300 font-bold text-2xl">شبکه های اجتماعی</h1>
+                <hr class="mt-3">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                        <i class="ri-instagram-line text-2xl text-yellow-300"></i>
+                         </a>
+                   </li>
+                   <li>
+                        <a href="#" target="_blank">
+                        <i class="ri-facebook-circle-line text-2xl text-yellow-300"></i>
+                        </a>
+                   </li>
+                   <li>
+                        <a href="#" target="_blank">
+                            <i class="ri-youtube-line text-2xl text-yellow-300"></i>
+                       </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <img src="./image/000.jpg" alt="" class="w-full h-full object-cover">
+            </div>
+        </div>
+
+        <span class="text-center ">
+           <p class="text-red-500 mt-10 text-3xl">&copy; لطفا حق کپی رایت رو رعایت کنید</p>
+        </span>
+      </footer>
+     <!-- =================SCRIPT================ -->
+    <script>
+        const btn = document.querySelector('button.mobuile-button-menu');
+        const menu = document.querySelector('.mobuile-menu');
+
+        btn.addEventListener('click' , () =>{
+            menu.classList.toggle("show");
+        });
+
+        // =====================remove menu mobuil===========================
+        const navlink = document.querySelectorAll(".navlink");
+        
+        const navlinks = () =>{
+            const navmobuil = document.querySelector('.mobuile-menu');
+            navmobuil.classList.remove('show')
+        }
+         
+        navlink.forEach(e => e.addEventListener('click' , navlinks))
+        
+    </script>
+</body>
+</html>
