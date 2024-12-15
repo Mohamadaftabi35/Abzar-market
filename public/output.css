@@ -659,6 +659,14 @@ video {
   height: 100%;
 }
 
+.h-0 {
+  height: 0px;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
 .h-20 {
   height: 5rem;
 }
@@ -818,10 +826,6 @@ video {
   text-align: center;
 }
 
-.font-MjSatter {
-  font-family: MjSatter, sans-serif;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -859,11 +863,6 @@ video {
 .text-yellow-300 {
   --tw-text-opacity: 1;
   color: rgb(253 224 71 / var(--tw-text-opacity, 1));
-}
-
-.text-yellow-400 {
-  --tw-text-opacity: 1;
-  color: rgb(250 204 21 / var(--tw-text-opacity, 1));
 }
 
 .shadow-md {
